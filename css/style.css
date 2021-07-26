@@ -681,7 +681,7 @@ h2::after {
 
 /*==========================  10. START TESTIMONIAL ============================*/
 .testimonial {
-    background-image: url("/images/review-bg.jpg");
+    background-image: url("../images/review-bg.jpg");
 }
 
 .testimonial .inner-testimonial .testimonial-data {
@@ -870,7 +870,7 @@ h2::after {
 
 /*==========================  12. START QUOTE ============================*/
 .quote {
-    background-image: url("/images/bg-1.jpg");
+    background-image: url("../images/bg-1.jpg");
 }
 
 .quote .quotearea h2 {
