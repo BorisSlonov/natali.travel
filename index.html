@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Natali.travel</title>
+	<!--Favicon-->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">
+	<!--Bootstrap Css-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Font-awesome js -->
+	<script src="https://kit.fontawesome.com/1e77aeef46.js" crossorigin="anonymous"></script>
+	<!-- Owl Carousel Css -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+		integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+	<!-- Animation Css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Custom Style Css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+			<![endif]-->
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="80" id="banner">
+
+	<!-- Preloader -->
+	<!--div id="preloader">   
+			<div class="loader"></div>  
+	    </div-->
+	<!-- End Preloader -->
+
+	<!-- Start Topbar -->
+	<div class="top-bar" id="top">
+		<div class="container">
+			<div class="tob-bar__content">
+				<a href="tel:+37255905001" class="text-left">+3 725 590 50 01</a>
+				<div class="top-right-nav text-right">
+					<ul>
+						<li>
+							<a href="https://api.whatsapp.com/send?phone=37255905001&text="><i
+									class="fab fa-whatsapp"></i> <span></span></a>
+						</li>
+						<li>
+							<a href="viber://chat?number=%2B37255905001"><i class="fab fa-viber"></i> <span></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Topbar -->
+
+	<!-- Start Navbar -->
+	<nav class="navbar navbar-expand-lg custom-navbar transition" id="navigation">
+		<div class="container">
+			<a href="/">
+				<img src="images/logo/logo.png" class="one nav-img img-fluid" alt="theme logo">
+			</a>
+			<div class="bar-toggler">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<div class="collapse navbar-collapse" id="mynav">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item">
+						<a class="nav-link page-scroll" href="#service">Услуги</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link page-scroll" href="#about">О нас</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link page-scroll" href="#client">Отзывы</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link page-scroll" href="#address">адресс</a>
+					</li>
+					<li class="nav-item">
+						<a data-fancybox data-src="#mainPopup" class="btn custom-btn" href="#address">Связаться</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="menu-bar transition">
+			<div class="menu-bar-data">
+				<ul>
+					<!-- Start Menu Topbar -->
+					<li class="text-center">
+						<ul class="menu-social">
+							<li>
+								<a href="https://api.whatsapp.com/send?phone=37255905001&text="><i
+										class="fab fa-whatsapp"></i> <span></span></a>
+							</li>
+							<li>
+								<a href="viber://chat?number=%2B37255905001"><i class="fab fa-viber"></i>
+									<span></span></a>
+							</li>
+						</ul>
+					</li>
+					<!-- End Menu Topbar -->
+					<li><a class="nav-link page-scroll" href="#service">Услуги</a></li>
+					<li><a class="nav-link page-scroll" href="#about">О нас</a></li>
+					<li><a class="nav-link page-scroll" href="#client">Отзывы</a></li>
+					<li><a class="nav-link page-scroll" href="#address">адресс</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End Navbar -->
+
+	<!-- Start Home -->
+	<section class="home">
+		<div class="home-data">
+			<div class="home-inner owl-carousel">
+				<div class="item">
+					<div class="home-image">
+						<img src="images/banner-3.jpg" alt="slider image" class="img-fluid">
+					</div>
+					<div class="home-detail">
+						<h1 class="home-title">Подберем лучший <span class="common-color">тур!</span> </h1>
+						<p class="mb-4 desc">
+							При подборе учитываем все пожелания и предлагаем лучшие предложения
+						</p>
+						<div class="home-button">
+							<a data-fancybox data-src="#mainPopup" class="btn custom-btn common-transition">Оставить
+								заявку <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="home-image">
+						<img src="images/banner-2.jpg" alt="slider image" class="img-fluid">
+					</div>
+					<div class="home-detail">
+						<h1 class="home-title">Путешествие в <span class="common-color">горы!</span> </h1>
+						<p class="mb-4 desc">
+							Получите лучшие варианты в течение 2 дней после согласования деталей
+						</p>
+						<div class="home-button">
+							<a data-fancybox data-src="#mainPopup" class="btn custom-btn common-transition">Оставить
+								заявку <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="home-image">
+						<img src="images/banner-1.jpg" alt="slider image" class="img-fluid">
+					</div>
+					<div class="home-detail">
+						<h1 class="home-title">выгодные варианты <span class="common-color">размещения</span> </h1>
+						<p class="mb-4 desc">
+							Опыт работы позволяет быстро и в полном объеме оценить все предложения, чтобы выбрать лучшие
+							для вас
+						</p>
+						<div class="home-button">
+							<a data-fancybox data-src="#mainPopup" class="btn custom-btn common-transition">Оставить
+								заявку <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Home -->
+
+
+
+	<!-- Start Service -->
+	<section class="section service" id="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="text-center common-title">
+						<h2>Наши <span class="common-color">услуги</span></h2>
+						<p class="common-desc mb-4">
+							Все, что вам может пригодиться в путешествии
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="service-data mt-4 wow bounceInUp animated" data-wow-delay=".2s">
+						<div class="service-icon">
+							<i class="fa fa-picture-o" aria-hidden="true"></i>
+						</div>
+						<div class="service-desc">
+							<h3>Тур на праздники</h3>
+							<p class="mb-0">
+								Короткие туры на 2-5 дней. Выходные и праздники, тематические программы
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="service-data mt-4 wow bounceInUp animated" data-wow-delay=".3s">
+						<div class="service-icon">
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+						</div>
+						<div class="service-desc">
+							<h3>Путешествие</h3>
+							<p class="mb-0">
+								По нескольким странам в рамках одной поездки? Легко!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="service-data mt-4 wow bounceInUp animated" data-wow-delay=".4s">
+						<div class="service-icon">
+							<i class="fa fa-camera" aria-hidden="true"></i>
+						</div>
+						<div class="service-desc">
+							<h3>Тур на острова</h3>
+							<p class="mb-0">
+								Посетите удаленные райские уголки нашей планеты
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="service-data mt-4 wow bounceInUp animated" data-wow-delay=".5s">
+						<div class="service-icon">
+							<i class="fas fa-money-bill-wave"></i>
+						</div>
+						<div class="service-desc">
+							<h3>Возврат средств</h3>
+							<p class="mb-0">
+								В случае маловероятного форс-мажора гарантия возврата средств
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="service-data mt-4 wow bounceInUp animated" data-wow-delay=".6s">
+						<div class="service-icon">
+							<i class="fa fa-file-video-o" aria-hidden="true"></i>
+						</div>
+						<div class="service-desc">
+							<h3>Организация</h3>
+							<p class="mb-0">
+								Получайте впечатления, а всю организацию берем на себя
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="service-data mt-4 wow bounceInUp animated" data-wow-delay=".7s">
+						<div class="service-icon">
+							<i class="fa fa-question-circle" aria-hidden="true"></i>
+						</div>
+						<div class="service-desc">
+							<h3>Поддержка 24/7</h3>
+							<p class="mb-0">
+								Всегда на связи с клиентами для вашего комфорта
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Service -->
+
+
+	<!-- Start Quotes -->
+	<section class="section quote layer" id="quote">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="quotearea text-center text-white">
+						<h2>подберем лучшие предложения</h2>
+						<h3></h3>
+						<p class="wow fadeInUp animated" data-wow-delay=".2s">
+							Работаем для вас с 2012 года
+						</p>
+						<a data-fancybox data-src="#mainPopup" class="btn mt-4 quote-btn wow fadeInUp animated"
+							data-wow-delay=".3s">Подобрать тур</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Quotes -->
+
+
+
+	<!-- Start About Us -->
+	<section class="section about bg" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<img src="/images/ab.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<div class="about-box">
+						<div class="about-title">
+							<h2>О <span class="common-color">нас</span></h2>
+						</div>
+						<p class="wow fadeInLeft animated" data-wow-delay=".2s">
+							Работаем с 2012 года, за это время организовали 500+ туров во все уголки мира. Хорошее
+							впечатление и эмоции от путешествий - наш приоритет. Мы всегда работаем на все 100% и рады
+							предоставить отличный сервис, чтобы каждое путешествие оставляло только положительные
+							воспоминания
+						</p>
+						<div class="about-right-desc">
+							<div class="row">
+								<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUp"
+									data-wow-delay=".3s">
+									<div class="about-box">
+										<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+										<div class="about-inner-data">
+											<h3 class="common-color">Надежно</h3>
+											<p>
+												Большой опыт в организации путешествий позволяет исключить любые
+												негативные моменты
+											</p>
+										</div>
+									</div>
+								</div> <!-- col end -->
+								<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUp"
+									data-wow-delay=".5s">
+									<div class="about-box">
+										<i class="fa fa-percent" aria-hidden="true"></i>
+										<div class="about-inner-data">
+											<h3 class="common-color">Выгодно</h3>
+											<p>
+												За годы работы научились быстро подбирать лучшие предложения по любым
+												направлениям туризма
+											</p>
+										</div>
+									</div>
+								</div> <!-- col end -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Us -->
+
+	<!-- Start Testimonial -->
+	<section class="section layer testimonial" id="client">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="testimonial-title text-center common-title">
+						<h2>Клиенты о нас</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="testimonial-box">
+						<div class="inner-testimonial owl-carousel">
+							<div class="testimonial-data mx-auto">
+								<div class="testimonial-inner-data">
+									<div class="testimonial-detail">
+										<div class="client-data">
+											<h3 class="client-name">Ирина Витальевна</h3>
+										</div>
+										<blockquote>
+											<p class="client-review">
+												Отличные и очень профессиональные менеджеры,быстро подобрали тур и
+												помогли с отдыхом
+											</p>
+										</blockquote>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial-data mx-auto">
+								<div class="testimonial-inner-data">
+									<div class="testimonial-detail">
+
+										<div class="client-data">
+											<h3 class="client-name">Татьяна Сергеевна</h3>
+										</div>
+										<blockquote>
+											<p class="client-review">
+												Настоящие профессионалы, приятно осознавать, что агентства такого уровня
+												есть в моем городе 😍Лучшие цены и сервис! Навсегда в моем ❤️
+											</p>
+										</blockquote>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial-data mx-auto">
+								<div class="testimonial-inner-data">
+									<div class="testimonial-detail">
+
+										<div class="client-data">
+											<h3 class="client-name">Николай Борисович</h3>
+										</div>
+										<blockquote>
+											<p class="client-review">
+												Огромное спасибо менеджеру Наталье за подбор и организацию тура
+												в Египет, а также за понимание, внимание, терпение и стрессоустойчивость
+												(группа 14 чел и каждый со своим взглядом на отдых). Наталья – Вы наш
+												проводник в сфере туризма!!!!
+											</p>
+										</blockquote>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Testimonial -->
+
+
+
+	<!-- Start Address -->
+	<section class="section address bg" id="address">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 wow fadeInLeft" data-wow-delay=".3s">
+					<div class="contact-data one text-center">
+						<div class="icon">
+							<i class="fa fa-phone-square" aria-hidden="true"></i>
+						</div>
+						<div class="mt-4 contact-det">
+							<h3 class="mb-0">Телефон (WhatsApp / Viber)</h3>
+							<p class="mt-1 mb-0"><a href="tel:+37255905001">+3 725 590 50 01</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 wow fadeInLeft" data-wow-delay=".5s">
+					<div class="contact-data two text-center">
+						<div class="icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="mt-4 contact-det">
+							<h3 class="mb-0">Почта</h3>
+							<p class="mt-1 mb-0"><a href="mailto:info@natali.travel">info@natali.travel</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 wow fadeInLeft" data-wow-delay=".7s">
+					<div class="contact-data three text-center">
+						<div class="icon">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<div class="mt-4 contact-det">
+							<h3 class="mb-0">адресс</h3>
+							<p class="mt-1 mb-0">Нарва, Эстония</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Address -->
+
+	<!-- Start Map -->
+	<div class="map">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 p-0">
+					<div class="contact-map">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65049.810535676464!2d28.04012351044945!3d59.36956698249296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469437d78b66b087%3A0xb94a2a5f4d7d21f4!2sNarva%2C%20Estonia!5e0!3m2!1sen!2sru!4v1627292080415!5m2!1sen!2sru"
+							width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Map -->
+
+	<!-- Start Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="copy-right">
+						<p>&copy; Copyright | Natali.travel Agency 2021 All Right Reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+
+
+
+
+
+
+
+	<!-- popups -->
+	<div id="mainPopup" style="display: none;">
+		<div class="mainPopup">
+			<h2 class="mainPopup__title">
+				Оставьте заявку
+			</h2>
+			<span class="mainPopup__sub-title">
+				и мы свяжемся с вами в ближайшее время
+			</span>
+			<form class="mainPopup-form" onsubmit="send(event, 'mailer/send.php')" method="post">
+				<input name="phone" class="mainPopup-form__input" placeholder="Номер телефона" required>
+				<input name="name" class="mainPopup-form__input" placeholder="Имя">
+				<input name="btn" value="Отправить" type="submit" class="btn btn_main popupBtn custom-btn">
+			</form>
+
+			<div class="mainPopup__phone">
+				<h3>WhatsApp / Viber</h3>
+				<a href="tel:+37255905001">
+					<i class="fas fa-phone-alt"></i>
+					+3 725 590 50 01
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- popups -->
+
+
+	<!-- Scroll-top -->
+	<div class="scroll-top">
+		<a class="scrollToTop common-back-color" href="#">
+			<i class="fa fa-angle-up" aria-hidden="true"></i></a>
+	</div>
+	<!--  End Scroll-top  -->
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+		integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- Bootstrap Js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Owl Carousel Js -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Easing Js -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- Wow Animation Js -->
+	<script src="js/wow.min.js"></script>
+	<!-- Custom Js -->
+	<script src="js/custom.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+</body>
+
+</html>
